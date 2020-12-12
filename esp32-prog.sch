@@ -30,6 +30,7 @@ F 9 "/product-detail/en/micro-commercial-co/MMSS8050-H-TP/MMSS8050-H-TPMSCT-ND/2
 F 10 "TRANS NPN 25V 1.5A SOT23" H 3450 5050 60  0001 L CNN "Description"
 F 11 "Micro Commercial Co" H 3450 5150 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 3450 5250 60  0001 L CNN "Status"
+F 13 "C402279" H 3250 4050 50  0001 C CNN "LCSC"
 	1    3250 4050
 	1    0    0    -1  
 $EndComp
@@ -41,6 +42,7 @@ F 0 "U1" H 3050 2515 50  0000 C CNN
 F 1 "CH340B" H 3050 2424 50  0000 C CNN
 F 2 "Package_SO:SO-16_3.9x9.9mm_P1.27mm" H 2850 2500 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/2008191806_WCH-Jiangsu-Qin-Heng-CH340B_C81010.pdf" H 2850 2500 50  0001 C CNN
+F 4 "C81010" H 3050 1900 50  0001 C CNN "LCSC"
 	1    3050 1900
 	1    0    0    -1  
 $EndComp
@@ -61,6 +63,7 @@ F 9 "/product-detail/en/micro-commercial-co/MMSS8050-H-TP/MMSS8050-H-TPMSCT-ND/2
 F 10 "TRANS NPN 25V 1.5A SOT23" H 6700 5100 60  0001 L CNN "Description"
 F 11 "Micro Commercial Co" H 6700 5200 60  0001 L CNN "Manufacturer"
 F 12 "Active" H 6700 5300 60  0001 L CNN "Status"
+F 13 "C402279" H 6500 4100 50  0001 C CNN "LCSC"
 	1    6500 4100
 	1    0    0    -1  
 $EndComp
@@ -72,18 +75,8 @@ F 0 "R1" V 2295 4050 50  0000 C CNN
 F 1 "10k" V 2386 4050 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2540 4040 50  0001 C CNN
 F 3 "~" H 2500 4050 50  0001 C CNN
+F 4 "C169071" H 2500 4050 50  0001 C CNN "LCSC"
 	1    2500 4050
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_US R2
-U 1 1 5FD4B2FA
-P 5800 4100
-F 0 "R2" V 5595 4100 50  0000 C CNN
-F 1 "10k" V 5686 4100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5840 4090 50  0001 C CNN
-F 3 "~" H 5800 4100 50  0001 C CNN
-	1    5800 4100
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -92,8 +85,6 @@ Text GLabel 1950 4050 0    50   Input ~ 0
 DTR
 Text GLabel 5350 4100 0    50   Input ~ 0
 RTS
-Wire Wire Line
-	5350 4100 5650 4100
 Wire Wire Line
 	1950 4050 2350 4050
 Text GLabel 3350 3550 1    50   Input ~ 0
@@ -136,6 +127,7 @@ F 0 "C1" H 1765 1746 50  0000 L CNN
 F 1 "0.1uF" H 1765 1655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 1688 1550 50  0001 C CNN
 F 3 "~" H 1650 1700 50  0001 C CNN
+F 4 "C314285" H 1650 1700 50  0001 C CNN "LCSC"
 	1    1650 1700
 	1    0    0    -1  
 $EndComp
@@ -151,6 +143,7 @@ F 0 "C2" H 4265 1746 50  0000 L CNN
 F 1 "0.1uF" H 4265 1655 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 4188 1550 50  0001 C CNN
 F 3 "~" H 4150 1700 50  0001 C CNN
+F 4 "C314285" H 4150 1700 50  0001 C CNN "LCSC"
 	1    4150 1700
 	1    0    0    -1  
 $EndComp
@@ -205,6 +198,7 @@ F 0 "J1" H 6557 2667 50  0000 C CNN
 F 1 "USB_C_Receptacle_USB2.0" H 6557 2576 50  0000 C CNN
 F 2 "Connector_USB:USB_C_Receptacle_HRO_TYPE-C-31-M-12" H 6600 1800 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 6600 1800 50  0001 C CNN
+F 4 "C165948" H 6450 1800 50  0001 C CNN "LCSC"
 	1    6450 1800
 	1    0    0    -1  
 $EndComp
@@ -258,6 +252,7 @@ F 0 "R3" H 7918 1746 50  0000 L CNN
 F 1 "5.11k" H 7918 1655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7890 1690 50  0001 C CNN
 F 3 "~" H 7850 1700 50  0001 C CNN
+F 4 "C204553" H 7850 1700 50  0001 C CNN "LCSC"
 	1    7850 1700
 	1    0    0    -1  
 $EndComp
@@ -269,6 +264,7 @@ F 0 "R4" H 8368 1746 50  0000 L CNN
 F 1 "5.11k" H 8368 1655 50  0000 L CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8340 1690 50  0001 C CNN
 F 3 "~" H 8300 1700 50  0001 C CNN
+F 4 "C204553" H 8300 1700 50  0001 C CNN "LCSC"
 	1    8300 1700
 	1    0    0    -1  
 $EndComp
@@ -328,6 +324,7 @@ F 0 "U2" H 9100 4342 50  0000 C CNN
 F 1 "AP1117-33" H 9100 4251 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 9100 4300 50  0001 C CNN
 F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 9200 3850 50  0001 C CNN
+F 4 "C351784" H 9100 4100 50  0001 C CNN "LCSC"
 	1    9100 4100
 	1    0    0    -1  
 $EndComp
@@ -339,6 +336,7 @@ F 0 "C3" H 8415 4296 50  0000 L CNN
 F 1 "10uF" H 8415 4205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8338 4100 50  0001 C CNN
 F 3 "~" H 8300 4250 50  0001 C CNN
+F 4 "C15850" H 8300 4250 50  0001 C CNN "LCSC"
 	1    8300 4250
 	1    0    0    -1  
 $EndComp
@@ -350,6 +348,7 @@ F 0 "C4" H 9915 4296 50  0000 L CNN
 F 1 "10uF" H 9915 4205 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9838 4100 50  0001 C CNN
 F 3 "~" H 9800 4250 50  0001 C CNN
+F 4 "C15850" H 9800 4250 50  0001 C CNN "LCSC"
 	1    9800 4250
 	1    0    0    -1  
 $EndComp
@@ -520,11 +519,6 @@ Wire Wire Line
 Connection ~ 4900 6250
 Wire Wire Line
 	4900 6250 4900 6600
-Connection ~ 5650 4100
-Wire Wire Line
-	5650 4100 5700 4100
-Wire Wire Line
-	5950 4100 6300 4100
 NoConn ~ 3400 1650
 NoConn ~ 3400 1950
 NoConn ~ 3400 2050
@@ -550,4 +544,20 @@ Wire Wire Line
 	7050 5400 7250 5400
 Wire Wire Line
 	7250 5500 7050 5500
+Wire Wire Line
+	5950 4100 6300 4100
+$Comp
+L Device:R_US R2
+U 1 1 5FD4B2FA
+P 5800 4100
+F 0 "R2" V 5595 4100 50  0000 C CNN
+F 1 "10k" V 5686 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5840 4090 50  0001 C CNN
+F 3 "~" H 5800 4100 50  0001 C CNN
+F 4 "C169071" H 5800 4100 50  0001 C CNN "LCSC"
+	1    5800 4100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5350 4100 5650 4100
 $EndSCHEMATC
